@@ -1,0 +1,17 @@
+.section1 {
+    display: flex;
+    align-items: center;
+    height: 800px;
+    padding: 50px;
+    &__right-box {
+        margin: 0 0 0 70px;
+    }
+    &__extra-box {
+        position: relative;
+    }
+    &__extra-img {
+        position: absolute;
+        top: -580px;
+        left: -390px;
+    }
+}

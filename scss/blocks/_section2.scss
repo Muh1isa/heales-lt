@@ -1,0 +1,14 @@
+.section2 {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    padding: 50px;  
+    &__extra-box {
+        position: relative;
+    }  
+    &__extra-img {
+        position: absolute;
+        top: 140px;
+        left: -160px;
+    }
+}

@@ -1,0 +1,20 @@
+.footer {
+    height: 200px;
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    &__icon-box {
+        display: flex;
+        gap: 20px;
+    }
+    hr {
+        width: 1300px;
+        height: 2px;
+        background-color: #816F8C;
+        border: none;
+        margin: 30px auto 0 auto;
+    }
+}

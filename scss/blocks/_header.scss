@@ -1,0 +1,43 @@
+.header {
+    height: 900px;
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+        &-item {
+            font-size: 18px;
+            font-weight: 500;
+            color: #446381;
+        }
+    }
+    &__list-box {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    &__hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80%;
+        padding: 40px;
+        &-text {
+            margin: 0 40px 30px 0;
+        }
+    }
+    &__cross-box {
+        position: relative;
+    }
+    &__cross-image {
+        position: absolute;
+        top: -520px;
+        z-index: 1;
+    }
+    &__cross2-image {
+        position: absolute;
+        top: -160px;
+        left: 280px;
+        z-index: 1;
+    }
+}
